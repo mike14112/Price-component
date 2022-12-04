@@ -6,9 +6,11 @@
 
 
 body{
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap'); 
     background-image: url(img/bg-top.svg);
     background-repeat:no-repeat;
     background-position: right;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 15px;
     background-color:#F7F7FF;
@@ -18,10 +20,6 @@ body{
 
 
 
-/* .img-top{
-  background-repeat:no-repeat;
-  margin-left: 20rem;
-} */
 .img-bottom{
   background-repeat:no-repeat;
   margin-right: 15rem;
@@ -141,16 +139,28 @@ margin-left: 2rem;
     background-color: #7478BB;
     color:white;
     cursor: pointer;
-   }
+  }
+
+ span{
+    border-bottom: 1px solid white;
+  text-transform: capitalize;
+
+  }
+
+  .border{
+     text-decoration: underline white;
+     text-underline-offset: 20px;
+  }
 
   .btn{
+    border: 2px solid white;
     width: 10rem;
     height: 3rem;
     background-color:#7478BB;
-    border:none;
     color: white;
    font-size: 24px;
    margin-top: 1rem;
+
   }
   .btn:hover{
     background-color: white;
@@ -170,6 +180,7 @@ margin-left: 2rem;
   .m-price{
     font-size: 40px;
   }
+
 @media screen and (max-width: 640px) {
   .price-component{
     display: flex;
